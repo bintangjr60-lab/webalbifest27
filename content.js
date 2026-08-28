@@ -306,7 +306,7 @@ const websiteData = {
       },
     ],
     buttonLabel: "Daftar Sekarang",
-    buttonLink: "https://linktr.ee/albifest2027",
+    buttonLink: "https://bintangjr60-lab.github.io/pendaftaran/",
     deadlineNote: "1 September 2026 — 26 Desember 2026",
   },
 

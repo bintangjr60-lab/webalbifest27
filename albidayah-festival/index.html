@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Albidayah Festival 2027 — Se-Jawa Barat</title>
+<meta name="description" content="Albidayah Festival (Albifest) 2027 — ajang kompetisi Islami se-Jawa Barat oleh Pondok Pesantren Terpadu Albidayah. Tema: Berkarya, Berprestasi, Menginspirasi. 08–10 Januari 2027." />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Albidayah Festival 2027 — Se-Jawa Barat" />
+<meta property="og:description" content="Ajang kompetisi Islami se-Jawa Barat. Tema: Berkarya, Berprestasi, Menginspirasi. 08–10 Januari 2027." />
+<meta property="og:image" content="images/hero.jpg" />
+<meta property="og:type" content="website" />
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+<!-- Font (CDN, boleh dihapus/diganti jika ingin offline penuh) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#beranda" class="navbar-brand" id="navbar-brand"></a>
+    <nav class="navbar-links" id="navbar-links"></nav>
+    <a class="btn btn-primary navbar-cta" id="navbar-cta"></a>
+    <button class="navbar-toggle" id="navbar-toggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobile-menu"></nav>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="beranda">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <p class="hero-eyebrow" id="hero-eyebrow"></p>
+          <h1 class="hero-title" id="hero-title"></h1>
+          <span class="hero-subtitle-badge" id="hero-subtitle"></span>
+          <p class="hero-theme" id="hero-theme"></p>
+          <p class="hero-desc" id="hero-desc"></p>
+          <div class="hero-actions" id="hero-actions"></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-wrap">
+            <img id="hero-image" src="" alt="" />
+            <div class="hero-date-chip">
+              <div class="label" id="hero-date-label"></div>
+              <div class="value" id="hero-date-value"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container countdown-wrap">
+      <div class="countdown-card reveal">
+        <div class="countdown-label">Menuju Albidayah Festival 2027</div>
+        <div class="countdown-grid" id="countdown-grid"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============ CABANG LOMBA ============ -->
+  <section class="competitions-section section-pad" id="lomba">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" id="comp-eyebrow"></p>
+        <h2 class="section-title on-dark" id="comp-title"></h2>
+        <p class="section-subtitle on-dark" id="comp-subtitle"></p>
+      </div>
+      <div class="comp-grid" id="comp-grid"></div>
+      <div class="comp-legend" id="comp-legend"></div>
+    </div>
+  </section>
+
+  <!-- ============ BAZAR ============ -->
+  <section class="bazaar-section section-pad" id="bazar">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" id="bazaar-eyebrow"></p>
+        <h2 class="section-title" id="bazaar-title"></h2>
+        <p class="section-subtitle" id="bazaar-subtitle"></p>
+      </div>
+      <div class="bazaar-grid" id="bazaar-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ JADWAL ============ -->
+  <section class="schedule-section section-pad" id="jadwal">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" id="schedule-eyebrow"></p>
+        <h2 class="section-title" id="schedule-title"></h2>
+        <p class="section-subtitle" id="schedule-subtitle"></p>
+      </div>
+      <div class="schedule-tabs" id="schedule-tabs"></div>
+      <div id="schedule-days"></div>
+      <p class="schedule-note" id="schedule-note"></p>
+    </div>
+  </section>
+
+  <!-- ============ PENDAFTARAN ============ -->
+  <section class="registration-section section-pad" id="pendaftaran">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" id="reg-eyebrow"></p>
+        <h2 class="section-title" id="reg-title"></h2>
+        <p class="section-subtitle" id="reg-subtitle"></p>
+      </div>
+      <div class="steps-list" id="steps-list"></div>
+      <div class="registration-cta">
+        <a class="btn btn-primary" id="reg-cta"></a>
+        <p id="reg-deadline"></p>
+      </div>
+
+      <div class="documents-wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow" id="docs-eyebrow"></p>
+          <h3 style="font-family:var(--font-display); color:var(--green-deep); font-size:1.3rem;" id="docs-title"></h3>
+          <p class="section-subtitle" id="docs-subtitle"></p>
+        </div>
+        <div class="documents-grid" id="documents-grid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERI ============ -->
+  <section class="gallery-section section-pad" id="galeri">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" id="gallery-eyebrow"></p>
+        <h2 class="section-title" id="gallery-title"></h2>
+        <p class="section-subtitle" id="gallery-subtitle"></p>
+      </div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ KONTAK ============ -->
+  <section class="contact-section section-pad" id="kontak">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" id="contact-eyebrow"></p>
+        <h2 class="section-title on-dark" id="contact-title"></h2>
+        <p class="section-subtitle on-dark" id="contact-subtitle"></p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <div class="contact-persons" id="contact-persons"></div>
+          <p class="contact-address" id="contact-address"></p>
+        </div>
+        <div class="contact-card reveal">
+          <div class="social-grid" id="social-grid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <a href="#beranda" class="footer-brand" id="footer-brand"></a>
+    <p class="footer-tagline" id="footer-tagline"></p>
+    <p class="footer-org" id="footer-org"></p>
+    <div class="footer-social" id="footer-social"></div>
+    <div class="footer-bottom" id="footer-bottom"></div>
+  </div>
+</footer>
+
+<!-- ============ MODAL LOMBA ============ -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-panel" style="position:relative;">
+    <button class="modal-close" id="modal-close" aria-label="Tutup">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<!-- ============ LIGHTBOX GALERI ============ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Tutup">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Sebelumnya">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+  </button>
+  <img id="lightbox-image" src="" alt="" />
+  <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Berikutnya">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+  </button>
+</div>
+
+<button class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

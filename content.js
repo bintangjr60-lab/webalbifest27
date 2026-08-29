@@ -176,7 +176,7 @@ const websiteData = {
             "Lagu yang dibawakan digunakan sebagai dasar acuan kriteria penilaian.",
           ],
           jadwal: "Minggu, 10 Januari 2027",
-          biaya: "[Rp.200.000,00]",
+          biaya: "Rp.200.000,00",
         },
       },
     ],

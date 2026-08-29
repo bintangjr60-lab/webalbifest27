@@ -192,14 +192,17 @@ const websiteData = {
     items: [
       {
         name: "UMKM Lokal",
+        image: "images/gallery-7.jpg",
         description: "Pameran produk usaha mikro, kecil, dan menengah lokal yang inspiratif dan berkualitas.",
       },
       {
         name: "Kuliner Khas",
+        image: "images/gallery-8.jpg",
         description: "Beragam jajanan dan hidangan sehat, lezat, serta menggugah selera masyarakat.",
       },
       {
         name: "Souvenir Festival",
+        image: "images/gallery-9.jpg",
         description: "Pilihan merchandise dan cinderamata dengan desain khas Albidayah Festival.",
       },
     ],

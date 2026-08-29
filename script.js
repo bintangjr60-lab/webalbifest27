@@ -250,7 +250,6 @@
         .map(
           (item) => `
         <div class="bazaar-card reveal">
-          <div class="bazaar-icon">${icon("store")}</div>
           <h3>${item.name}</h3>
           <p>${item.description}</p>
         </div>`

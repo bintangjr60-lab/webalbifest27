@@ -691,7 +691,7 @@ section { position: relative; }
 .bazaar-grid {
   display: grid;
   gap: 18px;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 .bazaar-card {
   background: var(--white);
@@ -701,18 +701,6 @@ section { position: relative; }
   text-align: center;
   border: 1px solid rgba(11,61,46,0.08);
 }
-.bazaar-icon {
-  width: 56px;
-  height: 56px;
-  margin: 0 auto 14px;
-  border-radius: 16px;
-  background: var(--green-tint);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--green-deep);
-}
-.bazaar-icon svg { width: 28px; height: 28px; }
 .bazaar-card h3 {
   font-family: var(--font-display);
   font-size: 1.25rem;

@@ -100,7 +100,7 @@ const websiteData = {
         image: "images/lomba-pidato.jpg",
         detail: {
           peserta: "Pelajar tingkat SD/MI sederajat dan SMP/MTs sederajat se-Jawa Barat.",
-          durasi: "Waktu penampilan maksimal 10 menit per peserta.",
+          durasi: "Waktu penampilan maksimal 7 menit per peserta.",
           tema: [
             "Tingkat SD/MI  : Aku Bangga Menjadi Anak yang Berbakti kepada Orang Tua dan Guru",
             "Tingkat SD/MI  : Menjadi Anak Saleh, Cerdas, dan Berakhlak Mulia",
@@ -229,7 +229,7 @@ const websiteData = {
           {
             time: "13.00 s/d Selesai",
             title: "Lomba Pidato Kategori SD/MI Sederajat",
-            description: "Waktu penampilan maksimal 10 menit per peserta.",
+            description: "Waktu penampilan maksimal 7 menit per peserta.",
           },
         ],
       },
@@ -246,7 +246,7 @@ const websiteData = {
           {
             time: "13.00 s/d Selesai",
             title: "Lomba Pidato Kategori MTs/SMP Sederajat",
-            description: "Waktu penampilan maksimal 10 menit per peserta.",
+            description: "Waktu penampilan maksimal 7 menit per peserta.",
           },
           {
             time: "10.00 s/d 12.00",

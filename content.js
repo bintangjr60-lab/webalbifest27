@@ -335,7 +335,7 @@ const websiteData = {
   gallery: {
     eyebrow: "Galeri",
     title: "Dokumentasi Albifest",
-    subtitle: "Lihat rangkaian dokumentasi foto dan video Albifest.",
+    subtitle: "Lihat rangkaian dokumentasi foto Albifest.",
     images: [
       { src: "images/gallery-1.jpg", alt: "Dokumentasi Albifest 1" },
       { src: "images/gallery-2.jpg", alt: "Dokumentasi Albifest 2" },
@@ -343,10 +343,6 @@ const websiteData = {
       { src: "images/gallery-4.jpg", alt: "Dokumentasi Albifest 4" },
       { src: "images/gallery-5.jpg", alt: "Dokumentasi Albifest 5" },
       { src: "images/gallery-6.jpg", alt: "Dokumentasi Albifest 6" },
-    ],
-    videos: [
-      { src: "vidio/ALBIFEST 2.mp4", title: "Dokumentasi Albifest 2" },
-      { src: "vidio/ALBIFEST 3.mp4", title: "Dokumentasi Albifest 3" },
     ],
   },
 

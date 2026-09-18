@@ -863,6 +863,12 @@ section { position: relative; }
   width: 100%; height: 100%; object-fit: cover;
   transition: transform 0.4s var(--ease);
 }
+.gallery-video { cursor: default; background: var(--green-deep); }
+.gallery-video::after { display: none; }
+.gallery-video video {
+  width: 100%; height: 100%; object-fit: cover;
+  display: block;
+}
 .gallery-item:active img { transform: scale(1.06); }
 .gallery-item::after {
   content: "";

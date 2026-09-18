@@ -383,7 +383,18 @@
           <img src="${img.src}" alt="${img.alt}" loading="lazy" />
         </div>`
         )
-        .join("")
+        .join("") +
+        (g.videos || [])
+          .map(
+            (video) => `
+        <div class="gallery-item gallery-video reveal">
+          <video controls preload="metadata" aria-label="${video.title}">
+            <source src="${video.src}" type="video/mp4" />
+            Browser Anda tidak mendukung pemutaran video.
+          </video>
+        </div>`
+          )
+          .join("")
     );
 
     document.querySelectorAll(".gallery-item").forEach((item) => {

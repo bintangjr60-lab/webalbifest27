@@ -174,7 +174,7 @@ const websiteData = {
         image: "images/lomba-hadroh.jpg",
         detail: {
           peserta: "Terbuka untuk umum se-Jawa Barat.",
-          durasi: "Lama penampilan maksimal 15 menit, dimulai sejak peserta mengucapkan salam.",
+          durasi: "Lama penampilan maksimal 10 menit, dimulai sejak peserta mengucapkan salam.",
           ketentuan: [
             "Peserta membawa alat musik sendiri.",
             "Lagu yang dibawakan digunakan sebagai dasar acuan kriteria penilaian.",
@@ -193,7 +193,7 @@ const websiteData = {
   bazaar: {
     eyebrow: "Bazar",
     title: "Bazar Festival & UMKM",
-    subtitle: "Pilih paket bazar yang sesuai untuk memasarkan produk Anda di Albidayah Festival 2027.",
+    subtitle: "Pilih paket bazar yang sesuai untuk memasarkan produk Anda di Albidayah Festival 2027. Potensi pengunjung lebih dari 2000 orang.",
     items: [
       {
         name: "Bazar Reguler",
@@ -269,7 +269,7 @@ const websiteData = {
             time: "08.00 s/d Selesai",
             title: "Lomba Hadroh Banjari & Habsyi",
             description:
-              "Untuk umum se-Jawa Barat. Peserta membawa alat musik sendiri, durasi maksimal 15 menit.",
+              "Untuk umum se-Jawa Barat. Peserta membawa alat musik sendiri, durasi maksimal 10 menit.",
           },
         ],
       },
@@ -310,7 +310,7 @@ const websiteData = {
     ],
     buttonLabel: "Daftar Sekarang",
     buttonLink: "https://bintangjr60-lab.github.io/pendaftaran/",
-    deadlineNote: "1 September 2026 — 26 Desember 2026",
+    deadlineNote: "10 Oktober 2026 — 26 Desember 2026",
   },
 
   // ================================

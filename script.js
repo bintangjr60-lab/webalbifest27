@@ -216,6 +216,9 @@
     if (d.tema && d.tema.length) {
       fields += `<div class="modal-field"><div class="label">Tema</div><ul>${d.tema.map((t) => `<li>${t}</li>`).join("")}</ul></div>`;
     }
+    if (d.benefit && d.benefit.length) {
+      fields += `<div class="modal-field"><div class="label">Benefit</div><ul>${d.benefit.map((item) => `<li>${item}</li>`).join("")}</ul></div>`;
+    }
     if (d.ketentuan && d.ketentuan.length) {
       fields += `<div class="modal-field"><div class="label">Ketentuan</div><ul>${d.ketentuan.map((t) => `<li>${t}</li>`).join("")}</ul></div>`;
     }
@@ -250,8 +253,14 @@
         .map(
           (item) => `
         <div class="bazaar-card reveal">
-          <h3>${item.name}</h3>
-          <p>${item.description}</p>
+          <div class="bazaar-card-heading">
+            <h3>${item.name}</h3>
+            <p class="bazaar-price">${item.price}</p>
+          </div>
+          <div class="bazaar-benefits">
+            <div class="label">Benefit</div>
+            <ul>${item.benefits.map((benefit) => `<li>${benefit}</li>`).join("")}</ul>
+          </div>
         </div>`
         )
         .join("")

@@ -713,6 +713,27 @@ section { position: relative; }
   line-height: 1.6;
   margin: 0;
 }
+.bazaar-card-heading { display: grid; gap: 6px; }
+.bazaar-card .bazaar-price { color: var(--green); font-weight: 700; }
+.bazaar-benefits .label {
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.bazaar-benefits ul { display: grid; gap: 5px; padding: 0; margin: 0; list-style: none; }
+.bazaar-benefits li { color: var(--ink); font-size: 0.88rem; }
+.bazaar-benefits li::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 8px 2px 1px;
+  border-radius: 50%;
+  background: var(--gold);
+}
 
 /* ---------- SCHEDULE ---------- */
 .schedule-section { background: var(--cream-dim); }

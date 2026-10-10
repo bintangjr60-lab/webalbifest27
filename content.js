@@ -109,8 +109,9 @@ const websiteData = {
             "Tingkat SMP/MTs: Akhlak Mulia di Tengah Kemajuan Teknologi",
             "Tingkat SMP/MTs: Pemuda Berprestasi, Indonesia Menginspirasi",
           ],
-          jadwal: "Jumat, 08 Januari 2027 (SD/MI) & Sabtu, 09 Januari 2027 (SMP/MTs)",
+          jadwal: "Tingkat MI/SD/Sederajat: Jumat, 08 Januari 2027<br>Tingkat MTs/SMP/Sederajat: Sabtu, 09 Januari 2027",
           biaya: "Rp.100.000,00",
+          benefit: ["Snack", "Sertifikat"],
         },
       },
       {
@@ -124,9 +125,10 @@ const websiteData = {
         detail: {
           peserta: "Pelajar tingkat SMP/MTs sederajat dan SMA/MA sederajat se-Jawa Barat.",
           durasi: "6 Jam untuk menyelesaikan karya kaligrafi di lokasi lomba.",
-          tempat: "Ruangan kelas Madrasah Aliyah Albidayah.",
+          tempat: "Ruangan kelas Madrasah Aliyah Al-Bidayah.",
           jadwal: "Minggu, 10 Januari 2027",
           biaya: "Rp.100.000,00",
+          benefit: ["Snack", "Sertifikat"],
         },
       },
       {
@@ -141,7 +143,8 @@ const websiteData = {
           peserta: "Seluruh siswa RA/TK se-Jawa Barat.",
           tempat: "Ruangan Aula Roudhoh.",
           jadwal: "Sabtu, 09 Januari 2027",
-          biaya: "Rp.75.000,00",
+          biaya: "Rp.100.000,00",
+          benefit: ["Snack", "Plakat", "Sertifikat", "Bingkisan"],
         },
       },
       {
@@ -157,7 +160,8 @@ const websiteData = {
           sistem:
             "Babak penyisihan bersifat online menggunakan perangkat yang disediakan panitia. Babak semifinal dan final dilaksanakan di panggung utama.",
           jadwal: "Sabtu, 09 Januari 2027",
-          biaya: "Rp.100.00,00",
+          biaya: "Rp.125.000,00",
+          benefit: ["Snack", "Sertifikat"],
         },
       },
       {
@@ -177,6 +181,7 @@ const websiteData = {
           ],
           jadwal: "Minggu, 10 Januari 2027",
           biaya: "Rp.200.000,00",
+          benefit: ["Snack", "Sertifikat"],
         },
       },
     ],
@@ -188,22 +193,17 @@ const websiteData = {
   bazaar: {
     eyebrow: "Bazar",
     title: "Bazar Festival & UMKM",
-    subtitle: "Temukan produk unggulan, kuliner, serta souvenir khas Albidayah Festival 2027.",
+    subtitle: "Pilih paket bazar yang sesuai untuk memasarkan produk Anda di Albidayah Festival 2027.",
     items: [
       {
-        name: "UMKM Lokal",
-        image: "images/gallery-7.jpg",
-        description: "Pameran produk usaha mikro, kecil, dan menengah lokal yang inspiratif dan berkualitas.",
+        name: "Bazar Reguler",
+        price: "Rp200.000/hari",
+        benefits: ["Meja", "Listrik", "Trashbag sampah", "Tenda", "Tempat di lapang"],
       },
       {
-        name: "Kuliner Khas",
-        image: "images/gallery-8.jpg",
-        description: "Beragam jajanan dan hidangan sehat, lezat, serta menggugah selera masyarakat.",
-      },
-      {
-        name: "Souvenir Festival",
-        image: "images/gallery-9.jpg",
-        description: "Pilihan merchandise dan cinderamata dengan desain khas Albidayah Festival.",
+        name: "Bazar VIP",
+        price: "Rp350.000/hari",
+        benefits: ["Meja", "Listrik", "Trashbag sampah", "Tenda", "Tempat di ruang kelas"],
       },
     ],
   },
@@ -263,7 +263,7 @@ const websiteData = {
             time: "09.00 - 15.00",
             title: "Lomba Kaligrafi",
             description:
-              "Peserta tingkat MA/SMA sederajat dan SMP/MTs sederajat, di ruangan kelas Madrasah Aliyah.",
+              "Peserta tingkat MA/SMA sederajat dan SMP/MTs sederajat, di Ruangan kelas Madrasah Aliyah Al-Bidayah.",
           },
           {
             time: "08.00 s/d Selesai",

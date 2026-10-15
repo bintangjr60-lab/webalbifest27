@@ -28,7 +28,7 @@ const websiteData = {
       "Albidayah Festival (Albifest) 2027 — ajang kompetisi Islami se-Jawa Barat oleh Pondok Pesantren Terpadu Albidayah. Tema: Berkarya, Berprestasi, Menginspirasi. 08–10 Januari 2027.",
     // Ganti dengan URL asli website Anda setelah online (untuk Open Graph)
     url: "[ISI URL WEBSITE]",
-    ogImage: "images/hero.jpg",
+    ogImage: "images/hero.png",
     faviconImage: "images/favicon.png",
   },
 
@@ -75,7 +75,7 @@ const websiteData = {
     secondaryButtonLabel: "Lihat Cabang Lomba",
     secondaryButtonHref: "#lomba",
     // Ganti nama file gambar hero
-    image: "images/hero.jpg",
+    image: "images/hero.png",
     imageAlt: "Albidayah Festival 2027",
   },
 

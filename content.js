@@ -310,7 +310,8 @@ const websiteData = {
     ],
     buttonLabel: "Daftar Sekarang",
     buttonLink: "https://bintangjr60-lab.github.io/pendaftaran/",
-    deadlineNote: "10 Oktober 2026 — 26 Desember 2026",
+    deadlineNote:
+      "Pendaftaran Gelombang 1: 18 Oktober 2026 s.d. 14 November 2026 | Pendaftaran Gelombang 2: 15 November 2026 s.d. 12 Desember 2026",
   },
 
   // ================================

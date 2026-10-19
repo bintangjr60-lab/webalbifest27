@@ -127,7 +127,7 @@ const websiteData = {
           durasi: "6 Jam untuk menyelesaikan karya kaligrafi di lokasi lomba.",
           tempat: "Ruangan kelas Madrasah Aliyah Al-Bidayah.",
           jadwal: "Minggu, 10 Januari 2027",
-          biaya: "Rp.100.000,00",
+          biaya: "Rp.25.000,00",
           benefit: ["Snack", "Sertifikat"],
         },
       },

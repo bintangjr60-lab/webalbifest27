@@ -202,7 +202,7 @@ const websiteData = {
       },
       {
         name: "Bazar VIP",
-        price: "Rp350.000/hari",
+        price: "Rp400.000/hari",
         benefits: ["Meja", "Listrik", "Trashbag sampah", "Tempat di ruang kelas"],
       },
     ],

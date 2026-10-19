@@ -144,7 +144,7 @@ const websiteData = {
           tempat: "Ruangan Aula Roudhoh.",
           jadwal: "Sabtu, 09 Januari 2027",
           biaya: "Rp.100.000,00",
-          benefit: ["Snack", "Plakat", "Sertifikat", "Bingkisan"],
+          benefit: ["Snack", "Sertifikat"],
         },
       },
       {

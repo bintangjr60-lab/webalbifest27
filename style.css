@@ -825,7 +825,7 @@ section { position: relative; }
 .step-title { font-weight: 700; color: var(--green-deep); }
 .step-desc { font-size: 0.87rem; color: var(--ink-soft); margin-top: 2px; }
 .registration-cta { text-align: center; margin-top: 30px; }
-.registration-cta p { margin-top: 10px; font-size: 0.85rem; color: var(--ink-soft); }
+.registration-cta p { margin-top: 10px; font-size: 0.85rem; color: var(--ink-soft); white-space: pre-line; }
 
 /* documents */
 .documents-wrap {

@@ -203,7 +203,7 @@ const websiteData = {
       {
         name: "Bazar VIP",
         price: "Rp350.000/hari",
-        benefits: ["Meja", "Listrik", "Trashbag sampah", "Tenda", "Tempat di ruang kelas"],
+        benefits: ["Meja", "Listrik", "Trashbag sampah", "Tempat di ruang kelas"],
       },
     ],
   },
@@ -311,7 +311,7 @@ const websiteData = {
     buttonLabel: "Daftar Sekarang",
     buttonLink: "https://bintangjr60-lab.github.io/pendaftaran/",
     deadlineNote:
-      "Pendaftaran Gelombang 1: 18 Oktober 2026 s.d. 14 November 2026 | Pendaftaran Gelombang 2: 15 November 2026 s.d. 12 Desember 2026",
+      "Pendaftaran Gelombang 1: 18 Oktober 2026 s.d. 14 November 2026\nPendaftaran Gelombang 2: 15 November 2026 s.d. 12 Desember 2026",
   },
 
   // ================================
